@@ -3,20 +3,20 @@
 ## Objective
  
 To create a hybrid model for stock price performance prediction using numerical analysis of historical stock prices, and
-sentimental analysis of news headline.
+sentimental analysis of news headlines.
 
 
 ## Approach
 
-* Extract Sentiment Scores from given news headlines dataset, with the help of nltk's SentimentIntensityAnalyzer
+* Extract Sentiment Scores from given news headlines dataset, with the help of nltk's SentimentIntensityAnalyzer.
 
-* Use Multivariate Time Series Forecasting using the LSTM (Long Short-Term Memory) model in Keras and Tensorflow. LSTM analyses the features from both sentiment scores and numerical Historical stock data to predicit opening prices.
+* Use Multivariate Time Series Forecasting using the LSTM (Long Short-Term Memory) model in Keras and Tensorflow. LSTM analyses the features from both sentiment scores and numerical Historical stock data to predicit opening stock prices.
 
 ## Results
 
 * Achieved Training loss: 0.05 and Validation loss: 0.02
 
-* Achieved RMSE on the Test data : 511
+* Achieved RMSE on test data : 511
 
 
 ## Data
